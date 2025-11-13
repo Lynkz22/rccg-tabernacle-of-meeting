@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/HomeGetInTouch.css";
 import { Link } from "react-router-dom";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HomeGetInTouch = () => {
   return (
@@ -10,7 +10,7 @@ const HomeGetInTouch = () => {
         className="homeGIT"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 3, delay: 0.2, ease: easeIn }}
+        transition={{ duration: 3, delay: 0.2 }}
         viewport={{ once: true }}
       >
         <div className="divGIT">

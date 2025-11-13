@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/HomeWords.css";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HomeWords = () => {
   return (
@@ -10,7 +10,7 @@ const HomeWords = () => {
           className="textHomeWords"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.2, ease: easeIn }}
+          transition={{ duration: 1, delay: 0.2 }}
           viewport={{ once: true }}
         >
           Word <span className="line">|</span>
@@ -20,7 +20,7 @@ const HomeWords = () => {
           className="textHomeWords"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2, ease: easeIn }}
+          transition={{ duration: 1, delay: 1.2 }}
           viewport={{ once: true }}
         >
           Devotion
@@ -31,7 +31,7 @@ const HomeWords = () => {
           className="textHomeWords"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 2.2, ease: easeIn }}
+          transition={{ duration: 1, delay: 2.2 }}
           viewport={{ once: true }}
         >
           Excellence
@@ -42,7 +42,7 @@ const HomeWords = () => {
           className="textHomeWords"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 3.2, ease: easeIn }}
+          transition={{ duration: 1, delay: 3.2 }}
           viewport={{ once: true }}
         >
           Family <span className="line">|</span>
@@ -52,7 +52,7 @@ const HomeWords = () => {
           className="textHomeWords"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 4.2, ease: easeIn }}
+          transition={{ duration: 1, delay: 4.2 }}
           viewport={{ once: true }}
         >
           Community

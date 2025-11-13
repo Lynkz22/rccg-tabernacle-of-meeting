@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/InfoEvents.css";
 import HomePictureImage from "../Components/Assets/HomeLandingPage/LandingPage2.jpg";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const InfoEvents = () => {
   return (
@@ -10,7 +10,7 @@ const InfoEvents = () => {
         className="sectionInfoEvents"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.2, ease: easeIn }}
+        transition={{ duration: 2, delay: 0.2 }}
         viewport={{ once: true }}
       >
         <div className="divEventsImage">
@@ -35,7 +35,7 @@ const InfoEvents = () => {
         className="sectionInfoEvents"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.2, ease: easeIn }}
+        transition={{ duration: 2, delay: 0.2 }}
         viewport={{ once: true }}
       >
         <div className="divEventsText">
@@ -60,7 +60,7 @@ const InfoEvents = () => {
         className="sectionInfoEvents"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.2, ease: easeIn }}
+        transition={{ duration: 2, delay: 0.2 }}
         viewport={{ once: true }}
       >
         <div className="divEventsImage">
@@ -80,12 +80,12 @@ const InfoEvents = () => {
           </p>
         </div>
       </motion.section>
-<section></section>
+
       <motion.section
         className="sectionInfoEvents"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 2, delay: 0.2, ease: easeIn }}
+        transition={{ duration: 2, delay: 0 }}
         viewport={{ once: true }}
       >
         <div className="divEventsText">

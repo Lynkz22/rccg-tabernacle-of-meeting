@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/WWAMissionAndVision.css";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const WWAMissionAndVision = () => {
   return (
@@ -9,7 +9,7 @@ const WWAMissionAndVision = () => {
         className="sectionWWAMissionAndVision"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 3, delay: 0.2, ease: easeIn }}
+        transition={{ duration: 3, delay: 0.2 }}
         viewport={{ once: true }}
       >
         <div className="divMissionAndVisionHeading">

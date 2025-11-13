@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/HomeWorshipWithUs.css";
 import HomeWorshipWithUsImage from "../Components/Assets/HomeWorship/Worship.jpg";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HomeWorshipWithUs = () => {
   return (
@@ -19,14 +19,14 @@ const HomeWorshipWithUs = () => {
             className="divWorshipWithUsText"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ duration: 1.5, delay: 0.2, ease: easeIn }}
+            transition={{ duration: 1.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
             <motion.p
               className="WorshipWithUsText"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 2, delay: 0.2, ease: easeIn }}
+              transition={{ duration: 2, delay: 0.2 }}
               viewport={{ once: true }}
             >
               WORSHIP WITH US
@@ -35,7 +35,7 @@ const HomeWorshipWithUs = () => {
               className="WorshipWithUsAddress"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 2, delay: -.5, ease: easeIn }}
+              transition={{ duration: 2, delay: -0.5 }}
               viewport={{ once: true }}
             >
               RCCG Tabernacle of Meeting, Church Address, United Kingdom
@@ -46,7 +46,7 @@ const HomeWorshipWithUs = () => {
               className="worshipDateText"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 2, delay: 0.2, ease: easeIn }}
+              transition={{ duration: 2, delay: 0.2 }}
               viewport={{ once: true }}
             >
               As A Church, We Meet Together on Sundays At 9AM
