@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.289a4749.css",
+    "main.js": "/static/js/main.50cf7ab4.js",
+    "static/js/496.1e727a3b.chunk.js": "/static/js/496.1e727a3b.chunk.js",
+    "static/media/Worship.jpg": "/static/media/Worship.6969c9c9c2010e770f5e.jpg",
+    "static/media/LandingPage2.jpg": "/static/media/LandingPage2.f5a8bdc29abf022370a2.jpg",
+    "static/media/LandingPage1.jpg": "/static/media/LandingPage1.0720b3506d5786d8b879.jpg",
+    "static/media/RCCGLogo.png": "/static/media/RCCGLogo.25c587cd7512dffcc3b9.png",
+    "static/media/DaddyAdeboye.jpg": "/static/media/DaddyAdeboye.57688298ea5f7cc63312.jpg",
+    "static/media/Logo.png": "/static/media/Logo.1da823a40001a0b21b6b.png",
+    "index.html": "/index.html",
+    "main.289a4749.css.map": "/static/css/main.289a4749.css.map",
+    "main.50cf7ab4.js.map": "/static/js/main.50cf7ab4.js.map",
+    "496.1e727a3b.chunk.js.map": "/static/js/496.1e727a3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.289a4749.css",
+    "static/js/main.50cf7ab4.js"
+  ]
+}
