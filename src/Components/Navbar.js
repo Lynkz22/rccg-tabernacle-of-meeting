@@ -1,8 +1,9 @@
 import "../Styles/A-Navbar.css";
 import { NavbarLinks } from "../Components/NavbarLinks";
 import Logo from "../Components/Assets/Logo/Logo.png";
-import React, { Component, useState, useEffect } from "react";
-import { useLocation, Link } from "react-router-dom";
+// import React, { Component, useState, useEffect } from "react";
+// import { useLocation, Link } from "react-router-dom";
+import React, { Component } from "react";
 
 class Navbar extends Component {
   state = { clicked: false };
