@@ -27,7 +27,6 @@ const HomeUnderTheMinistry = () => {
         transition={{ duration: 2 }}
         viewport={{ once: true }}
       >
-        >
         <div className="divHeading">
           <h1 className="heading">
             UNDER THE LEADERSHIP OF PASTOR E.A. ADEBOYE
