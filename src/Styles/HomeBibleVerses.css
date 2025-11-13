@@ -1,0 +1,110 @@
+.sectionHomeBibleVerse {
+  max-width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.divHomeBibleVerses {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  display: grid;
+}
+
+.homeBibleVersesHeading {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.homeBibleVersesText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.divHomeBibleVerses1 {
+  margin: auto;
+  padding: 0 0 3rem 0rem;
+  display: grid;
+  background-color: #f2f2f2;
+}
+
+.HomeBibleVerses1 {
+  width: 90%;
+  margin: auto;
+}
+
+.homeBibleVersesHeading1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.homeBibleVersesText1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+@media screen and (max-width: 700px) {
+  .sectionHomeBibleVerse {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divHomeBibleVerses {
+    padding: 2rem 0;
+  }
+
+  .homeBibleVersesHeading {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .homeBibleVersesText {
+    font-size: 0.7rem;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin: 0;
+  }
+
+  .divHomeBibleVerses1 {
+    padding: 2rem 0;
+  }
+
+  .homeBibleVersesHeading1 {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .homeBibleVersesText1 {
+    font-size: 0.7rem;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.sectionHomePicture {
+  max-width: 100vw;
+  height: 60vh;
+}
+
+.homePictureImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .sectionHomePicture {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sectionHomePicture {
+    height: 30vh;
+  }
+}

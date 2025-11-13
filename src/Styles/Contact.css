@@ -1,0 +1,261 @@
+.sectionContactForm {
+  width: 90%;
+  margin: 8rem auto 7rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.divContactForm {
+  width: 80%;
+  background-color: #0e0e7b;
+  padding: 2em;
+  min-height: 65vh;
+  position: relative;
+}
+
+.divContactFormHeading {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Poppins", cursive;
+  letter-spacing: 2px;
+  color: #f60707;
+}
+
+.divContactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.divContactForm .inputBox input,
+.divContactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px o;
+  font-size: 0.9rem;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background: transparent;
+  resize: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.divContactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.divContactForm .inputBox .fonts {
+  position: absolute;
+  bottom: 10px;
+  padding: 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #ffffff;
+}
+
+.divContactForm .inputBox input:focus ~ span,
+.divContactForm
+  .inputBox
+  input:valid
+  ~ span
+  .divContactForm
+  .inputBox
+  textarea:focus
+  ~ span,
+.divContactForm .inputBox textarea:valid ~ span {
+  color: #fff;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+.sendit {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  /* padding: 10px; */
+  text-align: start;
+  width: fit-content;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  margin: 3rem auto 0 auto;
+  border-radius: 8px;
+}
+
+/* .sendit:hover {
+  border: 1px solid #fff;
+  background: ff2400;
+  transition: 1s;
+} */
+
+.senditnow {
+  text-decoration: none;
+  background-color: #fff;
+  text-align: start;
+  font-size: 0.9rem;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 1.1rem 2rem 1.1rem 2rem;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.senditnow:hover {
+  background-color: #000;
+  transition: 2s ease-in-out;
+  color: #fff;
+}
+
+.sendit-1 {
+  font-size: 1em;
+  text-align: start;
+}
+
+textarea {
+  height: 5em;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.message {
+  width: 100%;
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.message .success {
+  font-size: 0.9rem;
+  color: #fff;
+  position: absolute;
+  animation: buttons 0.3s linear;
+  display: none;
+}
+
+.divMaps {
+  width: 600;
+  height: 450;
+}
+
+.maps {
+  width: 600px;
+  height: 450px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .divContactFormHeading {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sectionContactForm {
+    width: 100%;
+    margin: 4rem auto 0 auto;
+    display: block;
+  }
+
+  .divContactForm {
+    width: 90%;
+    background-color: #180e7f;
+    padding: 2em;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 4em;
+  }
+
+  /* .divMaps {
+    width: 90%;
+    margin: auto;
+  } */
+
+  .divContactFormHeading {
+    font-size: 1.1em;
+  }
+}
+
+.manna {
+  width: 100%;
+  border-bottom: 10px solid #e10600;
+  padding: 20px;
+  color: #e10600;
+}
+
+@media only screen and (max-width: 800px) {
+  .divContactFormHeading {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .divContactForm .inputBox input,
+  .divContactForm .inputBox textarea {
+    font-size: 0.6rem;
+  }
+
+  .sendit {
+    width: 7em;
+  }
+
+  /* .sendit-1 {
+    font-size: 1.2em;
+  } */
+
+  .divContactForm {
+    min-height: 35vh;
+  }
+
+  .senditnow {
+    text-decoration: none;
+    background-color: none;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .divMaps {
+    width: 80%;
+    margin: auto;
+  }
+
+  .maps {
+    max-width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+}

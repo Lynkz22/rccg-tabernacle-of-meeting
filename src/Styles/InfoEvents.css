@@ -1,0 +1,104 @@
+.sectionInfoEvents {
+  width: 100%;
+  height: 30vh;
+  /* margin: auto; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f2f2f2;
+}
+
+.divEventsImage {
+  width: 100%;
+  height: 30vh;
+}
+
+.homePictureImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divEventsText {
+  width: 90%;
+  text-align: start;
+  margin: auto;
+}
+
+.headingEventsText {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  color: #fff;
+  margin: 1.1;
+  background-color: #000;
+  width: fit-content;
+  margin: auto;
+  padding: 0.2rem 2rem;
+}
+
+.eventsText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  color: #000;
+  margin: 1.1;
+}
+
+@media screen and (max-width: 1200px) {
+  .sectionInfoEvents {
+    height: 20vh;
+  }
+
+  .divEventsImage {
+    height: 20vh;
+  }
+
+  .divEventsText {
+    width: 95%;
+  }
+
+  .headingEventsText {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    padding: 0.2rem 2rem;
+  }
+
+  .eventsText {
+    font-size: 0.9rem;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sectionInfoEvents {
+    height: 18vh;
+  }
+
+  .divEventsImage {
+    height: 18vh;
+  }
+
+  .divEventsText {
+    width: 95%;
+  }
+
+  .headingEventsText {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    padding: 0.1rem 0.5rem;
+  }
+
+  .eventsText {
+    font-size: 0.65rem;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #000;
+    margin: 0;
+    text-align: center;
+  }
+}

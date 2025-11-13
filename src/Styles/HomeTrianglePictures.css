@@ -1,0 +1,44 @@
+.sectionHomeTrianglePictures {
+  width: 90vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.styles\.frame {
+  width: 90vw;
+  height: 80vh;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  /* align-items: center;
+  overflow: hidden; */
+}
+
+.styles\.triangle {
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  margin: 0;
+}
+
+.styles\.triLeft,
+.styles\.triRight {
+  border-width: 0 100px 173px 100px;
+  /* border-color: transparent transparent #e74c3c transparent; */
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.styles\.triMid {
+  border-width: 173px 100px 0 100px;
+  background-color: #27ae60;
+  color: #fff;
+
+  /* border-color: #27ae60 transparent transparent transparent; */
+}
+
+.styles\.triRight {
+  background-color: #3498db;
+  /* border-color: transparent transparent #3498db transparent; */
+}
