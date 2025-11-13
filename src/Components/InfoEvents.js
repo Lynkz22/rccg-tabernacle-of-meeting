@@ -80,7 +80,7 @@ const InfoEvents = () => {
           </p>
         </div>
       </motion.section>
-
+<section></section>
       <motion.section
         className="sectionInfoEvents"
         initial={{ opacity: 0 }}
