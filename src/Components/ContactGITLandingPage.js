@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/ContactGITLandingPage.css";
-import ContactGITtLandingPageImage from "../Components/Assets/HomeLandingPage/LandingPage1.jpg";
+import ContactGITtLandingPageImage from "../Components/Assets/ChurchPictures/Picture5.webp";
 
 const ContactGITLandingPage = () => {
   return (

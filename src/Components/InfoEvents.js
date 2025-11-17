@@ -1,6 +1,10 @@
 import React from "react";
 import "../Styles/InfoEvents.css";
-import HomePictureImage from "../Components/Assets/HomeLandingPage/LandingPage2.jpg";
+import HomePictureImage from "../Components/Assets/Camp/Camp1.webp";
+import HomePictureImage2 from "../Components/Assets/Camp/camp4.jpg";
+import HomePictureImage3 from "../Components/Assets/Camp/Camp2.jpg";
+import HomePictureImage4 from "../Components/Assets/Camp/LGAF.jpg";
+
 import { motion } from "framer-motion";
 
 const InfoEvents = () => {
@@ -16,8 +20,8 @@ const InfoEvents = () => {
         <div className="divEventsImage">
           <img
             src={HomePictureImage}
-            alt="HomePictureImage"
-            className="homePictureImage"
+            alt="EventsImage"
+            className="eventsImage"
           />
         </div>
         <div className="divEventsText">
@@ -49,9 +53,9 @@ const InfoEvents = () => {
         </div>
         <div className="divEventsImage">
           <img
-            src={HomePictureImage}
-            alt="HomePictureImage"
-            className="homePictureImage"
+            src={HomePictureImage2}
+            alt="EventsImage"
+            className="eventsImage"
           />
         </div>
       </motion.section>
@@ -65,9 +69,9 @@ const InfoEvents = () => {
       >
         <div className="divEventsImage">
           <img
-            src={HomePictureImage}
-            alt="HomePictureImage"
-            className="homePictureImage"
+            src={HomePictureImage3}
+            alt="EventsImage"
+            className="eventsImage"
           />
         </div>
         <div className="divEventsText">
@@ -99,9 +103,9 @@ const InfoEvents = () => {
         </div>
         <div className="divEventsImage">
           <img
-            src={HomePictureImage}
-            alt="HomePictureImage"
-            className="homePictureImage"
+            src={HomePictureImage4}
+            alt="EventsImage"
+            className="eventsImage"
           />
         </div>
       </motion.section>

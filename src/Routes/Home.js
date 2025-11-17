@@ -9,6 +9,7 @@ import HomeWords from "../Components/HomeWords";
 import HomeBibleVerses from "../Components/HomeBibleVerses";
 import HomeGetInTouch from "../Components/HomeGetInTouch";
 import Footer from "../Components/Footer";
+import HomePicture1 from "../Components/HomePicture1";
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
       <HomeWorshipWithUs />
       <HomeWords />
       <HomeBibleVerses />
-      <HomePicture />
+      <HomePicture1 />
       <HomeGetInTouch />
       <Footer />
     </>

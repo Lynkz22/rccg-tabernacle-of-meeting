@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/WWALogos.css";
-import WWALandingPageImage from "../Components/Assets/HomeLandingPage/LandingPage1.jpg";
+import WWALandingPageImage from "../Components/Assets/ChurchPictures/Untitled design (4).png";
 
 const WWALandingPage = () => {
   return (

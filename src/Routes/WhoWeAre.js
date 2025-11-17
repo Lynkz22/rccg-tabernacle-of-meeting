@@ -6,9 +6,9 @@ import WWAAbout from "../Components/WWAAbout";
 import HomeUnderTheMinistry from "../Components/HomeUnderTheMinistry";
 import WWAMissionAndVision from "../Components/WWAMissionAndVision";
 import Footer from "../Components/Footer";
-import HomePicture from "../Components/HomePicture";
 import HomeWords from "../Components/HomeWords";
 import HomeBibleVerses from "../Components/HomeBibleVerses";
+import WWAPicture from "../Components/WWAPicture";
 
 const WhoWeAre = () => {
   return (
@@ -21,7 +21,7 @@ const WhoWeAre = () => {
       <WWAMissionAndVision />
       <HomeWords />
       <HomeBibleVerses />
-      <HomePicture />
+      <WWAPicture />
       <Footer />
     </>
   );

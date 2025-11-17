@@ -9,14 +9,14 @@
 .sectionWWALogos {
   position: relative;
   width: 50%;
-  height: 50vh;
+  height: 25vh;
   margin: 2rem auto;
 }
 
 .circle {
   position: absolute;
-  width: 12rem;
-  height: 12rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 50%;
 }
 

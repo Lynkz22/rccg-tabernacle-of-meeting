@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/WWALandingPage.css";
 import WWARCCGlogoImage from "../Components/Assets/ChurchLogo/RCCGLogo.png";
+import WWATOMlogoImage from "../Components/Assets/ChurchLogo/RTOM1.png";
 
 const WWALogos = () => {
   return (
@@ -16,7 +17,7 @@ const WWALogos = () => {
         <div class="circle right">
           <img
             alt="WWA RCCG Logo"
-            src={WWARCCGlogoImage}
+            src={WWATOMlogoImage}
             className="WWALogosImage"
           />
         </div>

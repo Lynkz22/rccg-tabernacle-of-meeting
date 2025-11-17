@@ -19,12 +19,11 @@ const HomeBibleVerses = () => {
             essential for every believer, as 1 Peter 1:15-16 commands: “Be holy,
             because I am holy.” Without holiness, no one will see the Lord
             (Hebrews 12:14), so it must be a daily lifestyle, not just a
-            doctrine. Members are trained to avoid sin, worldly vices, and
-            rebellion through prayer, fasting, and Holy Spirit empowerment. The
-            church declares, “Holiness will be our lifestyle,” in its
-            constitution and programs like Holy Ghost Services. This pursuit of
-            sanctification prepares souls for heaven and reflects God's
-            character in everyday conduct.
+            doctrine. We are trained to avoid sin, worldly vices, and rebellion
+            through prayer, fasting, and Holy Spirit empowerment. We declaree,
+            “Holiness will be our lifestyle,” in its constitution and programs
+            like Holy Ghost Services. This pursuit of sanctification prepares
+            souls for heaven and reflects God's character in everyday conduct.
           </p>
         </div>
         <div className="divHomeBibleVerses1">
@@ -35,11 +34,11 @@ const HomeBibleVerses = () => {
             <p className="homeBibleVersesText1">
               RCCG's mission is to make heaven and take as many people as
               possible, driven by Matthew 28:19-20: “Go and make disciples of
-              all nations.” Empowered by the Holy Spirit (Acts 1:8), they plant
+              all nations.” Empowered by the Holy Spirit (Acts 1:8), we planted
               churches in 197+ countries with a “5-minute walk” parish model.
               Monthly Holy Ghost Services, annual Congress, and digital outreach
-              are platforms for miracles and altar calls. Every member is a
-              soul-winner, trained to evangelize in homes, workplaces, and
+              are platforms for miracles and altar calls. We are all
+              soul-winners, trained to evangelize in homes, workplaces, and
               online. This global vision turns inward holiness into outward
               action for eternal impact.
             </p>

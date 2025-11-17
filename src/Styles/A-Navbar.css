@@ -100,6 +100,10 @@
   .navbarItems {
     padding: 0 7rem 0 5rem;
   }
+
+  .divNameLogo {
+    display: block;
+  }
 }
 
 .navbarItems {
@@ -203,14 +207,14 @@ body.no-scroll {
     font-size: 0.6rem;
     padding: 1rem 0;
   }
-
+  /* 
   .divNameLogo {
     display: flex;
     gap: 0.5rem;
     position: absolute;
     left: 1rem;
     width: fit-content;
-  }
+  } */
 
   .navbarLogoImage {
     width: 2rem;
@@ -229,6 +233,11 @@ body.no-scroll {
     z-index: 9999;
     transition: 1s ease-in-out;
     color: #fff;
+  }
+
+  .navBarName {
+    font-size: 0.7rem;
+    letter-spacing: 4px;
   }
 }
 
@@ -373,6 +382,10 @@ body.no-scroll {
 @media screen and (max-width: 1200px) {
   .navbarItems {
     padding: 0 7rem 0 5rem;
+  }
+
+  .menuIcons {
+    margin-right: 3rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -538,7 +551,7 @@ body.no-scroll {
   }
 
   .navBarName {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     letter-spacing: 1px;
   }
 

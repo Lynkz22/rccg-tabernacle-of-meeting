@@ -18,29 +18,30 @@ const HomeGetInTouch = () => {
           <p className="homeGITtext">
             Prayer is at the core of everything we are at RCCG Tabernacle of
             Meeting. The Apostle Paul encouraged his friends to never stop
-            praying. We want to pray for you in your time of need.
+            praying. We want to pray for you in your time of need, and we invite
+            you to reach out today.
           </p>
 
           <div className="divWelcomeButton">
-            <Link to="/About">
+            <Link to="/PrayerRequest">
               <button className="buttonHomeWelcome">
-                <p className="textWelcomeButton">ABOUT US</p>
+                <p className="textWelcomeButton">CONTACT</p>
               </button>
             </Link>
           </div>
         </div>
         <div className="divGIT">
-          <h2 className="homeGITHeading">Need Prayer?</h2>
+          <h2 className="homeGITHeading">WANT TO CONNECT?</h2>
           <p className="homeGITtext">
-            Prayer is at the core of everything we are at RCCG Tabernacle of
-            Meeting. The Apostle Paul encouraged his friends to never stop
-            praying. We want to pray for you in your time of need.
+            At RCCG Tabernacle of Meeting, we believe connection is at the heart
+            of who we are. Whether you have questions, need guidance, or simply
+            want to reach out, we’re here to listen and walk alongside you.
           </p>
 
           <div className="divWelcomeButton">
-            <Link to="/About">
+            <Link to="/GetInTouch">
               <button className="buttonHomeWelcome">
-                <p className="textWelcomeButton">ABOUT US</p>
+                <p className="textWelcomeButton">CONNECT</p>
               </button>
             </Link>
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/HomeLandingPage.css";
-import HomeWelcomeImage from "../Components/Assets/HomeLandingPage/LandingPage1.jpg";
+import HomeWelcomeImage from "../Components/Assets/HomeLandingPage/Tabernacle.webp";
 
 const HomeLandingPage = () => {
   return (

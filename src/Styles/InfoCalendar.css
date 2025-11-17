@@ -10,12 +10,20 @@
 .divCalendarImage {
   width: 100%;
   height: 30vh;
+  overflow: hidden;
+  margin: auto;
+  transition: transform 1s ease-in-out;
 }
 
-.homePictureImage {
+.calendarImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 1s ease-in-out;
+}
+
+.calendarImage:hover {
+  transform: scale(1.2);
 }
 
 .divCalendarText {

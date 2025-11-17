@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/ContactPrayerRequestLandingPage.css";
-import ContactPrayerRequestLandingPageImage from "../Components/Assets/HomeLandingPage/LandingPage1.jpg";
+import ContactPrayerRequestLandingPageImage from "../Components/Assets/ChurchPictures/Picture3.webp";
 
 const ContactPrayerRequest = () => {
   return (

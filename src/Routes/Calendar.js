@@ -5,6 +5,7 @@ import HomeWords from "../Components/HomeWords";
 import HomeBibleVerses from "../Components/HomeBibleVerses";
 import Space from "../Components/Space";
 import InfoCalendar from "../Components/InfoCalendar";
+import Footer from "../Components/Footer";
 
 const Calendar = () => {
   return (
@@ -12,9 +13,10 @@ const Calendar = () => {
       <Navbar />
       <InfoCalendarLandingPage />
       <HomeWords />
-      <HomeBibleVerses />
+      {/* <HomeBibleVerses /> */}
       <Space />
       <InfoCalendar />
+      <Footer />
     </>
   );
 };

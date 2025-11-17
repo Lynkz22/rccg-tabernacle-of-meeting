@@ -1,5 +1,5 @@
 .sectionWWAMissionAndVision {
-  width: 100vw;
+  max-width: 100vw;
   display: grid;
   grid-template-columns: 0.3fr 1fr;
   margin-top: 3rem;

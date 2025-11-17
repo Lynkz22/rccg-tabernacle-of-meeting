@@ -14,7 +14,7 @@ const Events = () => {
       <Navbar />
       <InfoEventsLandingPage />
       <HomeWords />
-      <HomeBibleVerses />
+      {/* <HomeBibleVerses /> */}
       <Space />
       <InfoEvents />
       <Space />

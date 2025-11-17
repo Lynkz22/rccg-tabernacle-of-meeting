@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/InfoEventsLandingPage.css";
-import InfoEventsLandingPageImage from "../Components/Assets/HomeLandingPage/LandingPage1.jpg";
+import InfoEventsLandingPageImage from "../Components/Assets/ChurchPictures/Picture1.webp";
 
 const InfoEventsLandingPage = () => {
   return (

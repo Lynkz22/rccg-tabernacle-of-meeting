@@ -36,6 +36,7 @@
   color: transparent;
   text-align: start;
   margin: 0;
+  
 }
 
 .underTheMinistryContent {
@@ -61,8 +62,6 @@
   object-fit: cover;
   box-shadow: 0 0 12px 2px #0a0e7c;
 }
-
-
 
 @media (min-width: 1600px) {
   .divdaddyGOImage {

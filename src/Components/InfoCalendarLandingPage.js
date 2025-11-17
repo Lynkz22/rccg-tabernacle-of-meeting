@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/InfoCalendarLandingPage.css";
-import infoCalendarLandingPageImage from "../Components/Assets/HomeLandingPage/LandingPage1.jpg";
+import infoCalendarLandingPageImage from "../Components/Assets/LandingPage/Calendar.webp";
 
 const InfoCalendarLandingPage = () => {
   return (
