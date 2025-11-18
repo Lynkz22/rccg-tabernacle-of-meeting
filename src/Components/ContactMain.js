@@ -1,6 +1,6 @@
 import "../Styles/Contact.css";
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 const ContactMain = () => {
   const form = useRef();
@@ -8,19 +8,19 @@ const ContactMain = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_sj61qzr", "template_zgk47yb", form.current, {
-        publicKey: "50fKP1VA-C4KuKrrH",
-      })
-      .then(
-        () => {
-          alert("Message sent successfully");
-          form.current.reset();
-        },
-        (error) => {
-          alert("Failed to send message, please try again", error);
-        }
-      );
+    // emailjs
+    //   .sendForm("service_sj61qzr", "template_zgk47yb", form.current, {
+    //     publicKey: "50fKP1VA-C4KuKrrH",
+    //   })
+    //   .then(
+    //     () => {
+    //       alert("Message sent successfully");
+    //       form.current.reset();
+    //     },
+    //     (error) => {
+    //       alert("Failed to send message, please try again", error);
+    //     }
+    //   );
   };
 
   return (

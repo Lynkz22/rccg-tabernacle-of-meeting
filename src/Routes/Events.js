@@ -20,7 +20,7 @@ const Events = () => {
       <Space />
       <Space />
       <Space />
-      <HomePicture />
+      {/* <HomePicture /> */}
       <Footer />
     </>
   );

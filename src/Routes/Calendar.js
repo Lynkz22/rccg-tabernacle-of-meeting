@@ -14,7 +14,6 @@ const Calendar = () => {
       <InfoCalendarLandingPage />
       <HomeWords />
       {/* <HomeBibleVerses /> */}
-      <Space />
       <InfoCalendar />
       <Footer />
     </>

@@ -14,7 +14,7 @@ const HomeLandingPage = () => {
 
         <div className="divHomeLandingPageText">
           <p className="homeLandingPageText">RCCG TABERNACLE OF MEETING</p>
-          <p className="homeLandingPageText1">WHERE HEAVEN MEETS EARTH</p>
+          <p className="homeLandingPageText1">WHERE THE GLORY OF GOD DWELLS</p>
           <p className="homeLandingPageText2">Welcome Home</p>
         </div>
       </section>

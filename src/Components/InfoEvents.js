@@ -29,7 +29,7 @@ const InfoEvents = () => {
             Annual Convention (Global Event)
           </h2>
           <p className="eventsText">
-            Held annually in August at Redemption Camp, located at Kilometer 46
+            Holds annually in August at Redemption Camp, located at Kilometer 46
             on the Lagos-Ibadan Expressway, Ogun State, Nigeria.
           </p>
         </div>
@@ -79,7 +79,7 @@ const InfoEvents = () => {
             HOLY GHOST SERVICE (Global Event)
           </h2>
           <p className="eventsText">
-            Held every first Friday of the month at Redemption Camp, located at
+            Holds every first Friday of the month at Redemption Camp, located at
             Kilometer 46 on the Lagos-Ibadan Expressway, Ogun State, Nigeria.
           </p>
         </div>

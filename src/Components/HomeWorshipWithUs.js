@@ -38,7 +38,9 @@ const HomeWorshipWithUs = () => {
               transition={{ duration: 2, delay: -0.5 }}
               viewport={{ once: true }}
             >
-              RCCG Tabernacle of Meeting, Church Address, United Kingdom
+              RCCG Tabernacle of Meeting, <br />
+              Highlight Community Centre Barry, Stirling Rd, Barry CF62 8NS,
+              United Kingdom.
             </motion.p>
           </div>
           <div className="worshipDate">
