@@ -1,6 +1,6 @@
 import "../Styles/Contact.css";
 import React, { useRef } from "react";
-// import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 
 const ContactMain = () => {
   const form = useRef();
@@ -8,19 +8,19 @@ const ContactMain = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm("service_sj61qzr", "template_zgk47yb", form.current, {
-    //     publicKey: "50fKP1VA-C4KuKrrH",
-    //   })
-    //   .then(
-    //     () => {
-    //       alert("Message sent successfully");
-    //       form.current.reset();
-    //     },
-    //     (error) => {
-    //       alert("Failed to send message, please try again", error);
-    //     }
-    //   );
+    emailjs
+      .sendForm("service_3ss6qwf", "template_u0d0hzr", form.current, {
+        publicKey: "9LLXbhewcpI9nSTjW",
+      })
+      .then(
+        () => {
+          alert("Message sent successfully");
+          form.current.reset();
+        },
+        (error) => {
+          alert("Failed to send message, please try again", error);
+        }
+      );
   };
 
   return (
@@ -74,11 +74,23 @@ const ContactMain = () => {
           </div>
         </div>
         <div className="divMaps">
-          <iframe
+          {/* <iframe
             className="maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63423.556107214754!2d3.2592395042613926!3d6.525187575755753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8fc97ee736a9%3A0x882ef3bdd48e7587!2sJakande%20Estate%2C%20Isolo!5e0!3m2!1sen!2sng!4v1750744985924!5m2!1sen!2sng"
             // width="600"
             // height="450"
+            style={{ border: "0" }}
+            // style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe> */}
+          <iframe
+            className="maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.316981905875!2d-3.2939725875483554!3d51.415603571674964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e0f63419e784f%3A0xeb6c6681ecb4cd7f!2sHighlight%20Community%20Centre%20Barry!5e0!3m2!1sen!2sng!4v1763727925558!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            // style="border:0;"
             style={{ border: "0" }}
             // style="border:0;"
             allowfullscreen=""

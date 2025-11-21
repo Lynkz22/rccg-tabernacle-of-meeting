@@ -6,7 +6,11 @@ const ContactPRLink = () => {
   return (
     <>
       <div className="divContactPRButton">
-        <Link to="/PrayerRequest">
+        <Link
+          to="https://forms.gle/Sw8ZNsxGzre9gS2U6"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="buttonPrayerRequestLink">
             Share Your Request with Our Prayer Team
           </button>

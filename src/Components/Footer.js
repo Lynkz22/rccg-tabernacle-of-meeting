@@ -3,6 +3,15 @@ import "../Styles/Footer.css";
 import { Link } from "react-router-dom";
 import WWARCCGlogoImage from "../Components/Assets/ChurchLogo/RCCGLogo.png";
 import WWATOMlogoImage from "../Components/Assets/ChurchLogo/RTOM1.png";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaTiktok,
+  FaSnapchat,
+} from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -10,7 +19,7 @@ const Footer = () => {
       <section className="sectionFooter">
         <div className="divFooter">
           <div className="divHeading">
-            <p>RCCG TABERNACLE OF MEETING</p>
+            <p>PAGE LINKS</p>
           </div>
           <div className="divFooterLinks">
             <Link to="/" className="footerLink">
@@ -46,41 +55,78 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* <div className="footerSocialLinks">
-          <Link
-            to="https://www.instagram.com/unik_tosa_limited/"
-            className="footerLink"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-instagram-square"></i>
-          </Link>
-          <Link
-            to="https://www.instagram.com/unik_tosa_limited/"
-            className="footerLink"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-instagram-square"></i>
-          </Link>
+        <div className="divFooter">
+          <div className="divHeading">
+            <p>CONNECT WITH US</p>
+          </div>
+          <div className="divFooterLinks">
+            <Link to="/" className="footerLink">
+              <p className="footerLinkText">Instagram</p>
+              <span id="footerSocialMediaIcon">
+                <FaInstagram />
+              </span>
+            </Link>
+            <Link to="/WhoWeAre" className="footerLink">
+              <span id="footerSocialMediaIcon">
+                <FaFacebook />
+              </span>
+              <p className="footerLinkText">Facebook</p>
+            </Link>
+            <Link to="/Events" className="footerLink">
+              <span id="footerSocialMediaIcon">
+                <FaTwitter />
+              </span>
+              <p className="footerLinkText">Twitter</p>
+            </Link>
+            <Link to="/Calendar" className="footerLink">
+              <span id="footerSocialMediaIcon">
+                <FaTiktok />
+              </span>
+              <p className="footerLinkText">Tiktok</p>
+            </Link>
+            <Link to="/Contact" className="footerLink">
+              <span id="footerSocialMediaIcon">
+                <FaSnapchat />
+              </span>
+              <p className="footerLinkText">Snapchat</p>
+            </Link>
+            <Link to="/Contact" className="footerLink">
+              <span id="footerSocialMediaIcon">
+                <FaThreads />
+              </span>
+              <p className="footerLinkText">Threads</p>
+            </Link>
+            <Link to="/Contact" className="footerLink">
+              <span id="footerSocialMediaIcon">
+                <SiGmail />
+              </span>
+              <p className="footerLinkText">Gmail</p>
+            </Link>
+          </div>
         </div>
 
-        <div className="divFooterLogos">
-          <div class="circleFooter leftFooter">
-            <img
-              alt="WWA RCCG Logo"
-              src={WWARCCGlogoImage}
-              className="footerLogosImage"
-            />
+        <div className="divFooter">
+          <div className="divHeading3">
+            <p>RCCG TABERNACLE OF MEETING</p>
           </div>
-          <div class="circleFooter rightFooter">
-            <img
-              alt="WWA RCCG Logo"
-              src={WWATOMlogoImage}
-              className="footerLogosImage"
-            />
+          <div className="divFooterLogos">
+            fl
+            <div class="circleFooter leftFooter">
+              <img
+                alt="WWA RCCG Logo"
+                src={WWARCCGlogoImage}
+                className="footerLogosImage"
+              />
+            </div>
+            <div class="circleFooter rightFooter">
+              <img
+                alt="WWA RCCG Logo"
+                src={WWATOMlogoImage}
+                className="footerLogosImage"
+              />
+            </div>
           </div>
-        </div> */}
+        </div>
       </section>
     </>
   );

@@ -3,7 +3,9 @@
   height: 70vh;
   background-color: #000;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 3fr;
+  align-items: start;
+  align-content: start;
 }
 
 .divFooter {
@@ -12,7 +14,8 @@
   align-items: start;
   align-content: start;
   width: 80%;
-  margin: auto;
+  padding-top: 2rem;
+  padding-left: 3rem;
 }
 
 .divHeading {
@@ -21,7 +24,7 @@
   font-weight: 400;
   font-size: 1.3rem;
   letter-spacing: 3px;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .divFooterLinks {
@@ -37,6 +40,11 @@
   display: flex;
 }
 
+.footerLinkText:hover {
+  color: #333;
+  transition: 1s ease-in-out;
+}
+
 .footerLinkText {
   color: #fff;
   font-family: "Bebas Neue", sans-serif;
@@ -44,7 +52,7 @@
   font-size: 1rem;
   letter-spacing: 3px;
   text-decoration: none;
-  margin-left: 2rem;
+  margin-left: 2.5rem;
 }
 
 #footerArrowIcon {
@@ -55,10 +63,31 @@
   color: #fff;
 }
 
+#footerSocialMediaIcon {
+  margin-top: -8px;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  color: #fff;
+  font-size: 25px;
+}
+
+.divHeading3 {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-align: start;
+  margin: 0;
+  line-height: 0;
+  /* margin-left: 2rem; */
+}
+
 .divFooterLogos {
   position: relative;
   width: 50%;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 }
@@ -68,14 +97,12 @@
   width: 50%;
   display: flex;
   /* height: 50vh; */
-  margin: 2rem auto;
+  margin: 5rem auto;
   justify-content: center;
   align-items: end;
   align-content: end;
-  margin-bottom: 6rem;
   position: relative;
   width: 50%;
-  display: flex;
   justify-content: center;
   align-items: end;
 }
@@ -88,15 +115,21 @@
 }
 
 .leftFooter {
-  background: transparent;
+  /* background: transparent;
   left: 0;
   animation: moveRight 10s infinite ease-in-out;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  background: transparent;
+  left: 0;
+  animation: moveRight 10s infinite ease-in-out;
 }
 
 .rightFooter {
+  /* background: transparent;
+  right: 0;
+  animation: moveLeft 10s infinite ease-in-out; */
   background: transparent;
   right: 0;
   animation: moveLeft 10s infinite ease-in-out;
@@ -129,30 +162,6 @@
   transition: 1s ease-in-out;
 }
 
-@keyframes moveRight {
-  0% {
-    left: 0%;
-  }
-  50% {
-    left: calc(100% - 60px);
-  }
-  100% {
-    left: 0%;
-  }
-}
-
-@keyframes moveLeft {
-  0% {
-    right: 0%;
-  }
-  50% {
-    right: calc(100% - 60px);
-  }
-  100% {
-    right: 0%;
-  }
-}
-
 .footerLogosImage {
   width: 100%;
   height: 100%;
@@ -162,17 +171,65 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* .divFooterLogos {
+  .circleFooter {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+
+  #footerSocialMediaIcon {
+    font-size: 18px;
+  }
+
+  .divHeading3 {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sectionFooter {
     max-width: 100vw;
-    height: 20vh;
-    margin: 1rem auto;
-  } */
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 1fr 1fr 3fr;
+    align-items: start;
+    align-content: start; */
+  }
+
+  .divFooter {
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    width: 80%;
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
 
   .circleFooter {
     position: absolute;
-    width: 8rem;
-    height: 8rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
+  }
+
+  #footerSocialMediaIcon {
+    font-size: 18px;
+  }
+
+  .divHeading3 {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 3px;
   }
 }
 
