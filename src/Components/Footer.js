@@ -60,43 +60,78 @@ const Footer = () => {
             <p>CONNECT WITH US</p>
           </div>
           <div className="divFooterLinks">
-            <Link to="/" className="footerLink">
+            <Link
+              to="https://www.instagram.com/rccgtomu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="footerLinkText">Instagram</p>
               <span id="footerSocialMediaIcon">
                 <FaInstagram />
               </span>
             </Link>
-            <Link to="/WhoWeAre" className="footerLink">
+            <Link
+              to="https://www.facebook.com/share/1G2LtFfNYB/"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span id="footerSocialMediaIcon">
                 <FaFacebook />
               </span>
               <p className="footerLinkText">Facebook</p>
             </Link>
-            <Link to="/Events" className="footerLink">
+            <Link
+              to="https://x.com/rccgtomuk?s=20"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span id="footerSocialMediaIcon">
                 <FaTwitter />
               </span>
               <p className="footerLinkText">Twitter</p>
             </Link>
-            <Link to="/Calendar" className="footerLink">
+            <Link
+              to="https://www.tiktok.com/@rccgtomofficial?is_from_webapp=1&sender_device=pc"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span id="footerSocialMediaIcon">
                 <FaTiktok />
               </span>
               <p className="footerLinkText">Tiktok</p>
             </Link>
-            <Link to="/Contact" className="footerLink">
+            <Link
+              to="/Contact"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span id="footerSocialMediaIcon">
                 <FaSnapchat />
               </span>
               <p className="footerLinkText">Snapchat</p>
             </Link>
-            <Link to="/Contact" className="footerLink">
+            <Link
+              to="/Contact"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span id="footerSocialMediaIcon">
                 <FaThreads />
               </span>
               <p className="footerLinkText">Threads</p>
             </Link>
-            <Link to="/Contact" className="footerLink">
+            <Link
+              to="rccgtomuk@gmail.com"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span id="footerSocialMediaIcon">
                 <SiGmail />
               </span>
