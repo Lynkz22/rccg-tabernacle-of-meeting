@@ -3,12 +3,12 @@ import Navbar from "../Components/Navbar";
 import WWALandingPage from "../Components/WWALandingPage";
 import WWALogos from "../Components/WWALogos";
 import WWAAbout from "../Components/WWAAbout";
-import HomeUnderTheMinistry from "../Components/HomeUnderTheMinistry";
 import WWAMissionAndVision from "../Components/WWAMissionAndVision";
 import Footer from "../Components/Footer";
 import HomeWords from "../Components/HomeWords";
 import HomeBibleVerses from "../Components/HomeBibleVerses";
 import WWAPicture from "../Components/WWAPicture";
+import InfoUnderTheMinistry from "../Components/InfoUnderTheMinistry";
 
 const WhoWeAre = () => {
   return (
@@ -17,7 +17,7 @@ const WhoWeAre = () => {
       <WWALandingPage />
       <WWALogos />
       <WWAAbout />
-      <HomeUnderTheMinistry />
+      <InfoUnderTheMinistry />
       <WWAMissionAndVision />
       <HomeWords />
       <HomeBibleVerses />

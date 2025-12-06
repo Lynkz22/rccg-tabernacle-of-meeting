@@ -46,11 +46,17 @@ const Footer = () => {
               </span>
               <p className="footerLinkText">CALENDAR</p>
             </Link>
-            <Link to="/Contact" className="footerLink">
+            <Link to="/PrayerRequest" className="footerLink">
               <span class="material-symbols-outlined" id="footerArrowIcon">
                 chevron_right
               </span>
-              <p className="footerLinkText">CONTACT</p>
+              <p className="footerLinkText">PRAYER REQUEST</p>
+            </Link>
+            <Link to="/GetInTouch" className="footerLink">
+              <span class="material-symbols-outlined" id="footerArrowIcon">
+                chevron_right
+              </span>
+              <p className="footerLinkText">GET IN TOUCH</p>
             </Link>
           </div>
         </div>
@@ -59,7 +65,7 @@ const Footer = () => {
           <div className="divHeading">
             <p>CONNECT WITH US</p>
           </div>
-          <div className="divFooterLinks">
+          {/* <div className="divFooterLinks">
             <Link
               to="https://www.instagram.com/rccgtomu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               className="footerLink"
@@ -136,6 +142,82 @@ const Footer = () => {
                 <SiGmail />
               </span>
               <p className="footerLinkText">Gmail</p>
+            </Link>
+          </div> */}
+          <div className="divFooterSocialMediaLinks">
+            <div>
+              <Link
+                to="https://www.instagram.com/rccgtomu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                className="footerLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span id="footerSocialMediaIcon">
+                  <FaInstagram />
+                </span>
+              </Link>
+            </div>
+            <div>
+              <Link
+                to="https://www.facebook.com/share/1G2LtFfNYB/"
+                className="footerLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span id="footerSocialMediaIcon">
+                  <FaFacebook />
+                </span>
+              </Link>
+            </div>
+            <Link
+              to="https://x.com/rccgtomuk?s=20"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span id="footerSocialMediaIcon">
+                <FaTwitter />
+              </span>
+            </Link>
+            <Link
+              to="https://www.tiktok.com/@rccgtomofficial?is_from_webapp=1&sender_device=pc"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span id="footerSocialMediaIcon">
+                <FaTiktok />
+              </span>
+            </Link>
+            <Link
+              to="/Contact"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span id="footerSocialMediaIcon">
+                <FaSnapchat />
+              </span>
+            </Link>
+            <Link
+              to="/Contact"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span id="footerSocialMediaIcon">
+                <FaThreads />
+              </span>
+            </Link>
+            <Link
+              to="rccgtomuk@gmail.com"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span id="footerSocialMediaIcon">
+                <SiGmail />
+              </span>
             </Link>
           </div>
         </div>
