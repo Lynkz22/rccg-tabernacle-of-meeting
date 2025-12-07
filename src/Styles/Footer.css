@@ -3,7 +3,7 @@
   height: 70vh;
   background-color: #000;
   display: grid;
-  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
   align-items: start;
   align-content: start;
 }
@@ -16,16 +16,17 @@
   width: 80%;
   padding-top: 2rem;
   padding-left: 3rem;
-
 }
 
 .divHeading {
   color: #fff;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 3px;
-  /* margin-left: 2rem; */
+  text-transform: capitalize;
+  text-align: start;
+  margin-left: 1.6rem;
 }
 
 .divFooterLinks {
@@ -39,6 +40,7 @@
   text-align: start;
   position: relative;
   display: flex;
+  cursor: pointer;
 }
 
 .footerLinkText:hover {
@@ -48,13 +50,51 @@
 
 .footerLinkText {
   color: #fff;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: 3px;
-  text-decoration: none;
-  margin-left: 2.5rem;
-  /* display: none; */
+  font-size: 0.8rem;
+  letter-spacing: 0.2px;
+  /* text-decoration: none; */
+  margin-left: 1.5rem;
+  cursor: pointer;
+  text-align: start;
+}
+
+.footerLinkText1 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+
+.footerLinkText1 span {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.footerLinkText1 {
+  cursor: text;
+}
+
+.divTextForAddress {
+  color: #fff;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+.thatHeading {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin: 0;
 }
 
 .divFooterSocialMediaLinks {
@@ -62,7 +102,7 @@
   justify-content: start;
   flex-wrap: wrap;
   width: 100%;
-  gap: 4rem;
+  gap: 3rem;
   margin-top: 1.5rem;
 }
 
@@ -70,8 +110,9 @@
   margin-top: -8px;
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 45%;
   color: #fff;
+  font-size: 18px;
 }
 
 #footerSocialMediaIcon {
@@ -80,19 +121,33 @@
   left: 0;
   top: 40%;
   color: #fff;
-  font-size: 25px;
+  font-size: 22px;
+}
+
+#footerSocialMediaIcon:hover {
+  color: #333;
+  transition: 1.5s ease-in-out;
+  font-size: 22px;
 }
 
 .divHeading3 {
-  color: #fff;
+  /* color: #fff;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 2rem;
   letter-spacing: 3px;
   text-align: start;
   margin: 0;
-  line-height: 0;
-  
+  line-height: 0; */
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  text-align: start;
+  margin-left: 1.6rem;
+
   /* margin-left: 2rem; */
 }
 
@@ -127,21 +182,12 @@
 }
 
 .leftFooter {
-  /* background: transparent;
-  left: 0;
-  animation: moveRight 10s infinite ease-in-out;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   background: transparent;
   left: 0;
   animation: moveRight 10s infinite ease-in-out;
 }
 
 .rightFooter {
-  /* background: transparent;
-  right: 0;
-  animation: moveLeft 10s infinite ease-in-out; */
   background: transparent;
   right: 0;
   animation: moveLeft 10s infinite ease-in-out;
@@ -213,10 +259,33 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .divHeading {
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-align: start;
+    margin-left: 0.2rem;
+  }
+
+  .footerLinkText {
+    font-size: 0.7rem;
+    margin-left: 1.8rem;
+  }
+
+  .footerLinkText1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .sectionFooter {
     max-width: 100vw;
-    height: 80vh;
+    height: fit-content;
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -242,24 +311,71 @@
     border-radius: 50%;
   }
 
+  .footerLinkText {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.65rem;
+    letter-spacing: 0.2px;
+    /* text-decoration: none; */
+    /* margin: 3px; */
+
+    margin-left: 1rem;
+  }
+
+  .footerLinkText1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+  }
+
+  #footerArrowIcon {
+    top: 50%;
+
+    font-size: 15px;
+  }
+
   #footerSocialMediaIcon {
     font-size: 18px;
+  }
+
+  .divHeading {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    margin: 0;
   }
 
   .divHeading3 {
     color: #fff;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 3px;
+    margin: 0;
+    line-height: 1px;
+    display: none;
+  }
+
+  .divFooterLogos {
+    position: fixed;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
   }
 
   .divFooterSocialMediaLinks {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    width: 60%;
-    gap: 3rem;
+    width: 100%;
+    gap: 2rem;
     margin: 0;
     margin-top: 1.5rem;
   }
@@ -282,16 +398,54 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
-  .divHeading {
-    font-size: 1rem;
-    letter-spacing: 3px;
-    text-align: start;
-    margin-left: 0.2rem;
+/* FINAL FIX – LOGOS CENTERED ON MOBILE + ANIMATION ONLY ON DESKTOP */
+@media screen and (max-width: 800px) {
+  .divFooterLogos {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2rem auto 1rem !important;
+    padding: 0 0rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
   }
 
-  .footerLinkText {
-    font-size: 0.7rem;
-    margin-left: 1.8rem;
+  .circleFooter,
+  .rightFooter {
+    position: static !important; /* removes absolute → allows centering */
+    animation: none !important; /* no floating on mobile = no conflict */
+    transform: none !important;
+  }
+
+  .circleFooter {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+}
+
+/* Keep your beautiful floating animation ONLY on desktop/tablet */
+@media screen and (min-width: 801px) {
+  .leftFooter {
+    /* background: transparent;
+  left: 0;
+  animation: moveRight 10s infinite ease-in-out;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+    background: transparent;
+    left: 0;
+    animation: moveRight 10s infinite ease-in-out;
+  }
+
+  .rightFooter {
+    /* background: transparent;
+  right: 0;
+  animation: moveLeft 10s infinite ease-in-out; */
+    background: transparent;
+    right: 0;
+    animation: moveLeft 10s infinite ease-in-out;
   }
 }

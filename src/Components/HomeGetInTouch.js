@@ -35,7 +35,7 @@ const HomeGetInTouch = () => {
           <p className="homeGITtext">
             At RCCG Tabernacle of Meeting, we believe connection is at the heart
             of who we are. Whether you have questions, need guidance, or simply
-            want to reach out, we’re here to listen and walk alongside you.
+            want to reach out, we're here to listen and walk alongside you.
           </p>
 
           <div className="divWelcomeButton">

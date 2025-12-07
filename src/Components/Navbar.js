@@ -1,6 +1,8 @@
 import "../Styles/A-Navbar.css";
 import { NavbarLinks } from "../Components/NavbarLinks";
 import Logo from "../Components/Assets/ChurchLogo/RTOM1.png";
+import RCCGLogo from "../Components/Assets/ChurchLogo/RCCGLogo.png";
+
 // import React, { Component, useState, useEffect } from "react";
 // import { useLocation, Link } from "react-router-dom";
 import React, { Component } from "react";
@@ -40,11 +42,19 @@ class Navbar extends Component {
     return (
       <nav className="navbarItems">
         <div className="divNameLogo">
-          <img
-            className="navbarLogoImage"
-            alt="Walk Projects Logo"
-            src={Logo}
-          />
+          <div className="newDivLogo">
+            <img
+              className="navbarLogoImage"
+              alt="Walk Projects Logo"
+              src={RCCGLogo}
+            />
+
+            <img
+              className="navbarLogoImage"
+              alt="Walk Projects Logo"
+              src={Logo}
+            />
+          </div>
           <p className="navBarName">
             TABERNACLE <br />
             OF MEETING

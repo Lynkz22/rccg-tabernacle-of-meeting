@@ -19,7 +19,7 @@ const Footer = () => {
       <section className="sectionFooter">
         <div className="divFooter">
           <div className="divHeading">
-            <p>PAGE LINKS</p>
+            <p>Page Links</p>
           </div>
           <div className="divFooterLinks">
             <Link to="/" className="footerLink">
@@ -32,32 +32,113 @@ const Footer = () => {
               <span class="material-symbols-outlined" id="footerArrowIcon">
                 chevron_right
               </span>
-              <p className="footerLinkText">WHO WE ARE</p>
+              <p className="footerLinkText">Who We Are</p>
             </Link>
             <Link to="/Events" className="footerLink">
               <span class="material-symbols-outlined" id="footerArrowIcon">
                 chevron_right
               </span>
-              <p className="footerLinkText">EVENTS</p>
+              <p className="footerLinkText">Events</p>
             </Link>
             <Link to="/Calendar" className="footerLink">
               <span class="material-symbols-outlined" id="footerArrowIcon">
                 chevron_right
               </span>
-              <p className="footerLinkText">CALENDAR</p>
+              <p className="footerLinkText">Calendar</p>
             </Link>
             <Link to="/PrayerRequest" className="footerLink">
               <span class="material-symbols-outlined" id="footerArrowIcon">
                 chevron_right
               </span>
-              <p className="footerLinkText">PRAYER REQUEST</p>
+              <p className="footerLinkText">Prayer Requests</p>
             </Link>
             <Link to="/GetInTouch" className="footerLink">
               <span class="material-symbols-outlined" id="footerArrowIcon">
                 chevron_right
               </span>
-              <p className="footerLinkText">GET IN TOUCH</p>
+              <p className="footerLinkText">Get In Touch</p>
             </Link>
+          </div>
+        </div>
+
+        <div className="divFooter">
+          <div className="divHeading">
+            <p>RCCG MISSIONS</p>
+          </div>
+          <div className="divFooterLinks">
+            <Link
+              to="https://www.rccg.org/"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="material-symbols-outlined" id="footerArrowIcon">
+                chevron_right
+              </span>
+              <p className="footerLinkText">RCCG, HQ, Lagos, Nigeria </p>
+            </Link>
+            <Link
+              to="https://rccgcentraloffice.church/"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="material-symbols-outlined" id="footerArrowIcon">
+                chevron_right
+              </span>
+              <p className="footerLinkText">RCCG United Kingdom</p>
+            </Link>
+            <Link
+              to="https://www.rccgeuropecontinent.org/"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="material-symbols-outlined" id="footerArrowIcon">
+                chevron_right
+              </span>
+              <p className="footerLinkText">RCCG Europe Continent</p>
+            </Link>
+            <Link
+              to="https://www.rccg.org/african-missions/"
+              className="footerLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="material-symbols-outlined" id="footerArrowIcon">
+                chevron_right
+              </span>
+              <p className="footerLinkText">RCCG African Nations</p>
+            </Link>
+          </div>
+        </div>
+
+        <div className="divFooter">
+          <div className="divHeading">
+            <p>FIND US</p>
+          </div>
+          <div className="divFooterLinks">
+            <Link to="" className="footerLink">
+              <p className="footerLinkText1">
+                <span>Address:</span> <br />
+                Highlight Community Centre Barry, Stirling Rd, Barry CF62 8NS,
+                United Kingdom.
+              </p>
+            </Link>
+            <div className="divTextForAddress">
+              <p className="thatHeading">Join Us Online:</p>
+              <Link className="footerLink">
+                <p className="footerLinkText">https://zoom.us › join</p>
+              </Link>
+            </div>
+            <div className="divTextForAddress">
+              {/* <p className="footerLink"> */}
+              <p className="footerLinkText1">
+                <span>Phone:</span>
+                +44 123456789
+              </p>
+              {/* </p> */}
+            </div>
           </div>
         </div>
 
@@ -65,85 +146,7 @@ const Footer = () => {
           <div className="divHeading">
             <p>CONNECT WITH US</p>
           </div>
-          {/* <div className="divFooterLinks">
-            <Link
-              to="https://www.instagram.com/rccgtomu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p className="footerLinkText">Instagram</p>
-              <span id="footerSocialMediaIcon">
-                <FaInstagram />
-              </span>
-            </Link>
-            <Link
-              to="https://www.facebook.com/share/1G2LtFfNYB/"
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="footerSocialMediaIcon">
-                <FaFacebook />
-              </span>
-              <p className="footerLinkText">Facebook</p>
-            </Link>
-            <Link
-              to="https://x.com/rccgtomuk?s=20"
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="footerSocialMediaIcon">
-                <FaTwitter />
-              </span>
-              <p className="footerLinkText">Twitter</p>
-            </Link>
-            <Link
-              to="https://www.tiktok.com/@rccgtomofficial?is_from_webapp=1&sender_device=pc"
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="footerSocialMediaIcon">
-                <FaTiktok />
-              </span>
-              <p className="footerLinkText">Tiktok</p>
-            </Link>
-            <Link
-              to="/Contact"
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="footerSocialMediaIcon">
-                <FaSnapchat />
-              </span>
-              <p className="footerLinkText">Snapchat</p>
-            </Link>
-            <Link
-              to="/Contact"
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="footerSocialMediaIcon">
-                <FaThreads />
-              </span>
-              <p className="footerLinkText">Threads</p>
-            </Link>
-            <Link
-              to="rccgtomuk@gmail.com"
-              className="footerLink"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span id="footerSocialMediaIcon">
-                <SiGmail />
-              </span>
-              <p className="footerLinkText">Gmail</p>
-            </Link>
-          </div> */}
+
           <div className="divFooterSocialMediaLinks">
             <div>
               <Link
@@ -227,7 +230,6 @@ const Footer = () => {
             <p>RCCG TABERNACLE OF MEETING</p>
           </div>
           <div className="divFooterLogos">
-            fl
             <div class="circleFooter leftFooter">
               <img
                 alt="WWA RCCG Logo"

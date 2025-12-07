@@ -179,14 +179,14 @@ textarea {
 
 @media only screen and (max-width: 900px) {
   .sectionContactForm {
-    width: 100%;
+    max-width: 100VW;
     margin: 4rem auto 0 auto;
     display: block;
   }
 
   .divContactForm {
-    width: 90%;
-    background-color: #180e7f;
+    width: 80%;
+    background-color: #000;
     padding: 2em;
     height: 100%;
     margin: auto;
@@ -199,7 +199,8 @@ textarea {
   } */
 
   .divContactFormHeading {
-    font-size: 1.1em;
+    font-size: 1rem;
+    font-weight: 500;
   }
 }
 
