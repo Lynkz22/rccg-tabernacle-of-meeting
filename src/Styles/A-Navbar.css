@@ -734,3 +734,26 @@ body.no-scroll {
     }
   }
 } */
+
+/* FINAL FIX — FORCE MOBILE MENU LINKS TO BE BIG ON EVERY DEVICE & ENVIRONMENT */
+.navMenu.active .navLinks,
+.navMenu .navLinks {
+  font-size: 2.5rem !important; /* your original huge beautiful size */
+  padding: 1.2rem 0 !important;
+  line-height: 1.2 !important;
+}
+
+/* Safety net for smaller screens */
+@media screen and (max-width: 768px) {
+  .navMenu.active .navLinks,
+  .navMenu .navLinks {
+    font-size: 2.5rem !important; /* still massive and readable */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navMenu.active .navLinks,
+  .navMenu .navLinks {
+    font-size: 2rem !important; /* even on small phones = perfect */
+  }
+}

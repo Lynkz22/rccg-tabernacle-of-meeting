@@ -9,6 +9,7 @@ import HomeWords from "../Components/HomeWords";
 import HomeBibleVerses from "../Components/HomeBibleVerses";
 import WWAPicture from "../Components/WWAPicture";
 import InfoUnderTheMinistry from "../Components/InfoUnderTheMinistry";
+import Space from "../Components/Space";
 
 const WhoWeAre = () => {
   return (
@@ -19,6 +20,7 @@ const WhoWeAre = () => {
       <WWAAbout />
       <InfoUnderTheMinistry />
       <WWAMissionAndVision />
+      <Space />
       <HomeWords />
       <HomeBibleVerses />
       <WWAPicture />
