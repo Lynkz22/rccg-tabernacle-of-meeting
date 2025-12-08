@@ -129,7 +129,12 @@ const Footer = () => {
             </Link>
             <div className="divTextForAddress">
               <p className="thatHeading">Join Us Online:</p>
-              <Link className="footerLink">
+              <Link
+                to="https://us06web.zoom.us/j/8500200592"
+                className="footerLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <p className="footerLinkText">
                   https://us06web.zoom.us/j/8500200592
                 </p>
