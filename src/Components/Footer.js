@@ -9,9 +9,11 @@ import {
   FaTwitter,
   FaTiktok,
   FaSnapchat,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
-import { SiGmail } from "react-icons/si";
+// import { FaYoutube } from "react-icons/fa";
+import { ImYoutube2 } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -128,16 +130,24 @@ const Footer = () => {
             <div className="divTextForAddress">
               <p className="thatHeading">Join Us Online:</p>
               <Link className="footerLink">
-                <p className="footerLinkText">https://zoom.us › join</p>
+                <p className="footerLinkText">
+                  https://us06web.zoom.us/j/8500200592
+                </p>
               </Link>
             </div>
             <div className="divTextForAddress">
               {/* <p className="footerLink"> */}
               <p className="footerLinkText1">
                 <span>Phone:</span>
-                +44 123456789
+                +44 78 4370 4684
               </p>
               {/* </p> */}
+            </div>
+            <div className="divTextForAddress">
+              <p className="footerLinkText1">
+                <span>Email:</span>
+                rccgtomuk@gmail.com
+              </p>
             </div>
           </div>
         </div>
@@ -150,13 +160,38 @@ const Footer = () => {
           <div className="divFooterSocialMediaLinks">
             <div>
               <Link
+                to="https://youtube.com/@rccgtomuk?si=t5wj02VB3_sPJRYd"
+                className="footerLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span id="footerSocialMediaIcon">
+                  {/* <FaYoutube /> */}
+                  <ImYoutube2 className="YouTubeColor hoverColor" />
+                </span>
+              </Link>
+            </div>
+            <div>
+              <Link
                 to="https://www.instagram.com/rccgtomu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 className="footerLink"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span id="footerSocialMediaIcon">
-                  <FaInstagram />
+                  <FaInstagram className="InstagramColor hoverColor" />
+                </span>
+              </Link>
+            </div>
+            <div>
+              <Link
+                to="http://wa.link/2w3s06"
+                className="footerLink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span id="footerSocialMediaIcon">
+                  <FaWhatsapp className="WhatsappColor hoverColor" />
                 </span>
               </Link>
             </div>
@@ -168,7 +203,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <span id="footerSocialMediaIcon">
-                  <FaFacebook />
+                  <FaFacebook className="FacebookColor hoverColor" />
                 </span>
               </Link>
             </div>
@@ -179,7 +214,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <span id="footerSocialMediaIcon">
-                <FaTwitter />
+                <FaTwitter className="TwitterColor hoverColor" />
               </span>
             </Link>
             <Link
@@ -189,31 +224,31 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <span id="footerSocialMediaIcon">
-                <FaTiktok />
+                <FaTiktok className="TiktokColor hoverColor" />
               </span>
             </Link>
             <Link
-              to="/Contact"
+              to="https://snapchat.com/t/PVGxGdHe"
               className="footerLink"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span id="footerSocialMediaIcon">
-                <FaSnapchat />
+                <FaSnapchat className="SnapchatColor hoverColor" />
               </span>
             </Link>
             <Link
-              to="/Contact"
+              to="https://www.threads.com/@rccgtomu"
               className="footerLink"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span id="footerSocialMediaIcon">
-                <FaThreads />
+                <FaThreads className="ThreadsColor hoverColor" />
               </span>
             </Link>
-            <Link
-              to="rccgtomuk@gmail.com"
+            {/* <Link
+              to="/GetInTouch"
               className="footerLink"
               target="_blank"
               rel="noopener noreferrer"
@@ -221,7 +256,7 @@ const Footer = () => {
               <span id="footerSocialMediaIcon">
                 <SiGmail />
               </span>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
